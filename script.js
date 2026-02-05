@@ -139,7 +139,7 @@ function drawText() {
 
     if(frameNumber > 1200){
         context.fillStyle = `rgba(255, 182, 193, ${opacity})`;
-        context.fillText("I love you so much Klo, jij verdient alles!", canvas.width/2, canvas.height/2);
+        context.fillText("I love you so much Klo, so I made something!", canvas.width/2, canvas.height/2);
         opacity += 0.01;
     }
 
