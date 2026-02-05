@@ -8,17 +8,18 @@ html, body {
 canvas {
     width: 100%;
     height: auto;
-    background: #111;
+    background: #000000;
 }
 
 #valentinesButton {
+    text-decoration: none;
     display: none;
     position: absolute;
-    background-color: #2d2dff;
-    border: 2px solid #2d2dff;
+    background-color: hotpink;
     color: #fff;
     cursor: pointer;
-    height: 50px;
+    text-align: center;
+    padding: 1rem;
     font-size: 16px;
     font-family: "Comic Sans MS", cursive, sans-serif;
     border-radius: 10px;
